@@ -1,0 +1,157 @@
+{
+  "expo": {
+    "name": "Desertcart",
+    "slug": "desertcart-mobile-app",
+    "version": "5.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes",
+    "icon": "./assets/images/icon.png",
+    "scheme": "desertcart",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.desertcart.Desertcart",
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.605703767748-knbvr221l9bknsdd9oeoi1cgr41arsqo",
+              "desertcart"
+            ]
+          }
+        ]
+      },
+      "usesAppleSignIn": true,
+      "usesIcloudStorage": true,
+      "associatedDomains": [
+        "applinks:*.desertcart.ae"
+      ],
+      "entitlements": {
+        "aps-environment": "production",
+        "com.apple.developer.associated-domains": [
+          "applinks:*.desertcart.ae"
+        ],
+        "com.apple.developer.in-app-payments": [
+          "merchant.com.desertcart"
+        ]
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.desertcartnative",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "*.desertcart.ae",
+              "pathPrefix": "/products"
+            },
+            {
+              "scheme": "https",
+              "host": "*.desertcart.ae",
+              "pathPrefix": "/search"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "image": "./assets/images/splash-icon.png",
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Onest-Light.ttf",
+            "./assets/fonts/Onest-Medium.ttf",
+            "./assets/fonts/Onest-Regular.ttf",
+            "./assets/fonts/Onest-SemiBold.ttf",
+            "./assets/fonts/Onest-Bold.ttf"
+          ]
+        }
+      ],
+      [
+        "@react-native-google-signin/google-signin"
+      ],
+      [
+        "expo-dev-launcher",
+        {
+          "launchMode": "most-recent"
+        }
+      ],
+      "expo-apple-authentication",
+      "expo-localization",
+      [
+        "@sentry/react-native/expo",
+        {
+          "project": "desertcart-app",
+          "organization": "desertcart",
+          "url": "https://sentry.io/"
+        }
+      ],
+      [
+        "apple-pay-react-native-expo",
+        {
+          "merchantIdentifiers": "merchant.com.desertcart"
+        }
+      ],
+      "@react-native-firebase/app",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          },
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      "expo-share-intent"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6f6196d0-e02b-490c-9722-a2360153d78a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6f6196d0-e02b-490c-9722-a2360153d78a"
+    }
+  }
+}

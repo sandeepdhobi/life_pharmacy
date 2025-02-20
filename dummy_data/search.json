@@ -1,0 +1,1908 @@
+{
+    "success": true,
+    "message": "Products fetched successfully",
+    "data": {
+    "products": [
+    {
+    "id": "c1068bdd-3254-4a14-81f3-c35b7fa90f1e",
+    "title": "Muscle Core 100% Whey Platinum Standard 5 Lb Chocolate",
+    "inventory": {
+    "sku": "123113"
+    },
+    "images": {
+    "featured_image": "https://lifeadmin-app.s3.me-south-1.amazonaws.com/EcomApp/products/Ajas/123113-7.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/123113-7-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/123113-7-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/123113-7-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/123113-7-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "b3ce9cec-d4b4-494a-b568-b8eba33b0f3d",
+    "name": "Whey Protein",
+    "parent_id": "684ea7e4-b4be-41f9-ac8d-a5077d729672",
+    "slug": "whey-protein"
+    }
+    ],
+    "slug": "muscle-core-100-whey-platinum-standard-5-lb-chocolate",
+    "pre_order": false,
+    "type": "otc",
+    "label": {
+    "label_text": "EXPIRY 05-2025",
+    "icon_type": "2",
+    "color_code": "#5b10cb",
+    "sub_label_text": null
+    },
+    "ad": true,
+    "ad_id": "23",
+    "rating": "4.2",
+    "stock": {
+    "max": 5,
+    "delivery_icons": [
+    {
+    "until": "5",
+    "icon": "standard",
+    "label": "24 hrs"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 296.1,
+    "offer_price": 198.45,
+    "offer_label": "33% OFF",
+    "offer_type": "flat_discount",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "f91b00cd-f152-4eff-8383-6c12a3c6caa3",
+    "title": "Fitness Bull 100% Whey Protein Vanilla 2LB",
+    "inventory": {
+    "sku": "137683"
+    },
+    "slug": "fitness-bull-100-whey-protein-vanilla-2lb-08984",
+    "categories": [
+    {
+    "id": "b3ce9cec-d4b4-494a-b568-b8eba33b0f3d",
+    "name": "Whey Protein",
+    "parent_id": "684ea7e4-b4be-41f9-ac8d-a5077d729672",
+    "slug": "whey-protein"
+    }
+    ],
+    "pre_order": false,
+    "type": "otc",
+    "images": {
+    "featured_image": "https://lifeadmin-app.s3.me-south-1.amazonaws.com/EcomApp/products/Ajas/137683-4.png",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/137683-4-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/137683-4-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/137683-4-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/137683-4-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/137683-3-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/137683-3-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/137683-3-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/137683-3-1024x1024-1024x1024.jpg"
+    }
+    ]
+    },
+    "label": {
+    "label_text": "EXPIRY 03-2025",
+    "sub_label_text": null,
+    "icon_type": "2",
+    "color_code": "#f0056b"
+    },
+    "ad": true,
+    "ad_id": "23",
+    "rating": "4.6",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "30",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 141.75,
+    "offer_price": 82.95,
+    "offer_label": "41% OFF",
+    "offer_type": "flat_discount",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "7ff898a2-fa31-4cc6-8880-46a5c208c0ba",
+    "title": "Sunshine Nutrition Vitamin C 1000 mg Orange Flavour Effervescent 20 Tablets",
+    "inventory": {
+    "sku": "121647"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/v/i/vitamin-c-1000-mg-orange-flavour-effervescent-tablets.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/121647-7-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/121647-7-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/121647-7-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/121647-7-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/121647-5-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/121647-5-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/121647-5-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/121647-5-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "161493ed-fe05-48dd-bf1c-0545cbbb5495",
+    "name": "Antioxidants",
+    "slug": "antioxidants"
+    },
+    {
+    "id": "8aa33f34-1302-49a9-8095-7aa7367e7c89",
+    "name": "Effervescents",
+    "slug": "effervescents"
+    },
+    {
+    "id": "9542cb66-66c8-44d9-86ac-e4f52e95896c",
+    "name": "Vitamin C",
+    "slug": "vitamin-c"
+    },
+    {
+    "id": "ea70fc2b-1b36-4ec0-8cd1-8c097aa0db6d",
+    "name": "Immune Support",
+    "slug": "immune-support"
+    }
+    ],
+    "slug": "sunshine-nutrition-vitamin-c-1000-mg-orange-flavour-effervescent-20-tablets",
+    "pre_order": false,
+    "type": "otc",
+    "label": {
+    "label_text": "Best Seller",
+    "sub_label_text": null,
+    "icon_type": "2",
+    "color_code": "#d86e18",
+    "active": true
+    },
+    "rating": "4.8",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "3478",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 28.35,
+    "offer_price": 14.18,
+    "offer_label": "50% OFF",
+    "offer_type": "flat_discount",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "c048ffb8-76d5-49a3-a11d-950ccb669625",
+    "title": "Panadol Extra with Optizorb, 24 Tablets",
+    "inventory": {
+    "sku": "111403"
+    },
+    "images": {
+    "featured_image": "https://lifeadmin-app.s3.me-south-1.amazonaws.com/EcomApp/products/111403-001.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/111403-001-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/111403-001-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/111403-001-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/111403-001-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/111403_2-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/111403_2-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/111403_2-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/111403_2-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/111403_3-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/111403_3-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/111403_3-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/111403_3-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/111403_4-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/111403_4-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/111403_4-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/111403_4-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/111403_5-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/111403_5-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/111403_5-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/111403_5-1024x1024-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "0b2c593e-9833-4ad7-8a0b-2707fb140442",
+    "name": "Fever",
+    "parent_id": "c4d39213-9249-49a1-bf23-073b977732a9",
+    "slug": "fever"
+    },
+    {
+    "id": "9c268751-cc07-4e20-b55f-aa888cd1db92",
+    "name": "Pain Relief",
+    "parent_id": "c4d39213-9249-49a1-bf23-073b977732a9",
+    "slug": "pain-relief"
+    }
+    ],
+    "slug": "panadol-extra-optizorb-24-s",
+    "pre_order": false,
+    "type": "otc",
+    "label": {
+    "label_text": "Best Seller",
+    "sub_label_text": null,
+    "icon_type": "2",
+    "color_code": "#d86e18",
+    "active": true
+    },
+    "rating": "4.8",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "13684",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 16.5,
+    "offer_price": 16.5,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "fe2d6627-118a-4fd3-9fad-a3063a88fd89",
+    "title": "Elave Dermatological Sensitive Intensive Cream 125g",
+    "inventory": {
+    "sku": "124863"
+    },
+    "images": {
+    "featured_image": "https://lifeadmin-app.s3.me-south-1.amazonaws.com/EcomApp/products/Ajas/Elave%20Intensive%20Cream%20125ml.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/Icon-113-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/Icon-113-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/Icon-113-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/Icon-113-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/Icon-106-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/Icon-106-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/Icon-106-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/Icon-106-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/Icon-118-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/Icon-118-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/Icon-118-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/Icon-118-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "175c06a5-dedf-4166-b7b1-dab0f7e32962",
+    "name": "Dry Skin",
+    "parent_id": "ac1f2142-9e81-4700-aaa3-64eb7f62bfb3",
+    "slug": "dry-skin"
+    },
+    {
+    "id": "ee7dc51d-7a12-42e4-a556-05138a6a6a22",
+    "name": "Eczema",
+    "parent_id": "ac1f2142-9e81-4700-aaa3-64eb7f62bfb3",
+    "slug": "eczema"
+    }
+    ],
+    "slug": "elave-dermatological-sensitive-intensive-cream-125-g",
+    "pre_order": false,
+    "type": "otc",
+    "rating": "4.8",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "639",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 68.25,
+    "offer_price": 34.13,
+    "offer_label": "50% OFF",
+    "offer_type": "flat_discount",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "9662eb8f-2621-4035-b46b-ed69fd60da05",
+    "title": "Kabrita Goat Milk Infant Formula Stage 1-400g",
+    "inventory": {
+    "sku": "111780"
+    },
+    "images": {
+    "featured_image": "https://lifeadmin-app.s3.me-south-1.amazonaws.com/EcomApp/products/111780-10.png",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/111780-6-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/111780-6-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/111780-6-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/111780-6-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/111780-2-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/111780-2-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/111780-2-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/111780-2-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/111780-3-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/111780-3-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/111780-3-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/111780-3-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/111780-4-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/111780-4-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/111780-4-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/111780-4-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/111780-5-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/111780-5-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/111780-5-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/111780-5-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "007b4741-8766-4aef-9f5c-c468a20abc32",
+    "name": "Stage 1 (0-6 Months)",
+    "parent_id": "aef08219-e072-4fed-9ab7-fe435e13e923",
+    "slug": "stage-1-0-6-months"
+    }
+    ],
+    "slug": "kabrita-goat-milk-infant-formula-stage-1-400-g",
+    "pre_order": false,
+    "type": "otc",
+    "rating": "4.9",
+    "stock": {
+    "max": 4,
+    "delivery_icons": [
+    {
+    "until": "153",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 91.58,
+    "offer_price": 91.58,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "02c88641-11ba-4f7d-abaa-7c7328818beb",
+    "title": "Fastum 2.5% Gel Dispenser 100 g",
+    "inventory": {
+    "sku": "113337"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/1/1/113337-fastum_dispenser_gel_1.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/113337-fastum_dispenser_gel_1-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/113337-fastum_dispenser_gel_1-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/113337-fastum_dispenser_gel_1-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/113337-fastum_dispenser_gel_1-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "a3d400ee-44d4-4241-91f9-8ced17a59499",
+    "name": "Muscles & Joint Pain",
+    "parent_id": "c4d39213-9249-49a1-bf23-073b977732a9",
+    "slug": "muscles-joint-pain"
+    }
+    ],
+    "slug": "fastum-2-5-gel-dispenser-100-g",
+    "type": "otc",
+    "pre_order": false,
+    "rating": "4.9",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "4981",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 52,
+    "offer_price": 52,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "da8235df-d273-4296-9fe2-cf52c059349b",
+    "title": "Regaine Men Foam 5% 60's Triple Pack",
+    "inventory": {
+    "sku": "125747"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/EcomApp/products/Anwar/125747-0001.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": []
+    },
+    "categories": [
+    {
+    "id": "4b16ae64-0410-4f29-9115-167c7d1c466f",
+    "name": "Male Hair Loss",
+    "slug": "male-hair-loss"
+    },
+    {
+    "id": "d7c545f9-f5be-4e4e-a579-a924b47927c4",
+    "name": "Hair Loss & Thinning",
+    "slug": "hair-loss-thinning"
+    }
+    ],
+    "slug": "regaine-for-men-foam-5-triple-pack-60-ml-x-3",
+    "label": {
+    "label_text": "Best Seller",
+    "sub_label_text": null,
+    "icon_type": "2",
+    "color_code": "#d86e18",
+    "active": true
+    },
+    "pre_order": false,
+    "type": "otc",
+    "rating": "4.8",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "3737",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 272.5,
+    "offer_price": 272.5,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "b7ed6acd-e5a2-4e7e-83c9-d93be3f9a965",
+    "title": "Some By Mi AHA BHA PHA 30 Days Miracle Serum 50ml",
+    "inventory": {
+    "sku": "135625"
+    },
+    "slug": "some-by-mi-aha-bha-pha-30-days-miracle-serum-50ml",
+    "categories": [
+    {
+    "id": "73976af3-9dc6-4167-a11d-6982b8492a27",
+    "name": "K Serum",
+    "slug": "k-serum"
+    },
+    {
+    "id": "efc0a266-7f11-4b4f-a74a-0dc1a77d5d3b",
+    "name": "Facial Serum",
+    "slug": "facial-serum"
+    }
+    ],
+    "pre_order": false,
+    "type": "otc",
+    "images": {
+    "featured_image": "https://lifeadmin-app.s3.me-south-1.amazonaws.com/EcomApp/products/Anwar/135625-1.png",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/135625-2-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/135625-2-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/135625-2-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/135625-2-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/135625-3-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/135625-3-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/135625-3-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/135625-3-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/135625-4-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/135625-4-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/135625-4-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/135625-4-1024x1024.jpg"
+    }
+    ]
+    },
+    "rating": "4.5",
+    "stock": {
+    "max": 4,
+    "delivery_icons": [
+    {
+    "until": "4",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 136.5,
+    "offer_price": 95.55,
+    "offer_label": "30% OFF",
+    "offer_type": "flat_discount",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "4251e378-3797-41dd-ace0-89dd690832b8",
+    "title": "Priorin Capsule 90's",
+    "inventory": {
+    "sku": "108440"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/EcomApp/products/Ajas/SKU%20108440.jpeg",
+    "gallery_images": []
+    },
+    "categories": [
+    {
+    "id": "195b3b45-5785-48f5-bae4-63c5ad4c37fc",
+    "name": "Hair Loss Supplements",
+    "parent_id": "46f41e00-dd0b-459b-b689-8d7939ba4f86",
+    "slug": "hair-loss-supplements"
+    },
+    {
+    "id": "f43ef95b-f96b-48ee-bf7b-6f49ee5c688d",
+    "name": "Hair, Skin & Nail Formulas",
+    "parent_id": "46f41e00-dd0b-459b-b689-8d7939ba4f86",
+    "slug": "hair-skin-nail-formulas"
+    },
+    {
+    "id": "fe1fb65f-b3c0-45ad-9853-e78eadfb77fb",
+    "name": "Hair, Skin & Nails",
+    "parent_id": "911ea949-3ff0-412e-8c1a-fe99db8c5274",
+    "slug": "hair-skin-nails"
+    }
+    ],
+    "slug": "priorin-capsule-90-s",
+    "pre_order": false,
+    "type": "otc",
+    "label": {
+    "label_text": "Best Seller",
+    "sub_label_text": null,
+    "icon_type": "2",
+    "color_code": "#d86e18",
+    "active": true
+    },
+    "rating": "4.9",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "2167",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 299,
+    "offer_price": 224.25,
+    "offer_label": "25% OFF",
+    "offer_type": "flat_discount",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "196866dc-0ec0-469c-aa07-9202d4873026",
+    "title": "Similac Total Comfort Gold Stage 2, 6 to 12 Months, 820g, Infant Follow On Formula Milk",
+    "inventory": {
+    "sku": "107702"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/EcomApp/products/Ajas/107702-5.png",
+    "gallery_images": []
+    },
+    "categories": [
+    {
+    "id": "dc424936-3a2f-4101-86fe-19780c7785fa",
+    "name": "Stage 2 (6-12 Months)",
+    "parent_id": "aef08219-e072-4fed-9ab7-fe435e13e923",
+    "slug": "stage-2-6-12-months"
+    }
+    ],
+    "slug": "similac-total-comfort-stage-2-820g",
+    "label": {
+    "label_text": "Best Seller",
+    "sub_label_text": null,
+    "icon_type": "2",
+    "color_code": "#d86e18",
+    "active": true
+    },
+    "pre_order": false,
+    "type": "otc",
+    "rating": "4.7",
+    "stock": {
+    "max": 4,
+    "delivery_icons": [
+    {
+    "until": "1253",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 90.56,
+    "offer_price": 90.56,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "96a63536-13c9-42a2-8c08-37642c1a63d4",
+    "title": "Muscletech Nitro Tech Perf Series Ripped Vanilla Swirl 4 Lb",
+    "inventory": {
+    "sku": "131806"
+    },
+    "slug": "mt-nitro-tech-perf-series-ripped-vanilla-swirl-4-lb",
+    "images": {
+    "featured_image": "https://lifeadmin-app.s3.me-south-1.amazonaws.com/EcomApp/products/Anwar/131806.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/131806-1-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/131806-1-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/131806-1-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/131806-1-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/131806-2-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/131806-2-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/131806-2-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/131806-2-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "66acdcaa-8001-4b87-be74-1d0f1398cffa",
+    "name": "Isolate/Hydrolysed Whey Proteins",
+    "parent_id": "684ea7e4-b4be-41f9-ac8d-a5077d729672",
+    "slug": "isolate-hydrolysed-whey-proteins"
+    }
+    ],
+    "pre_order": false,
+    "type": "otc",
+    "label": {
+    "label_text": "Free Shaker",
+    "icon_type": "2",
+    "color_code": "#f10966",
+    "active": true,
+    "end_time": "2025-02-28T23:59",
+    "start_time": "2024-11-30T17:22",
+    "sub_label_text": null
+    },
+    "rating": "4.7",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "937",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 157.49,
+    "offer_price": 157.49,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "2a548f00-3f5c-41bf-af5b-7c0c9240b832",
+    "title": "Trister Ultrasonic Mesh Nebulizer : Model-TS-136NZM",
+    "inventory": {
+    "sku": "130426"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/p/r/product-mockup.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/product-mockup-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/product-mockup-1024x1024-1024x1024-1024x1024-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/product-mockup-1024x1024-1024x1024-1024x1024-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/product-mockup-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/webp.net-resizeimage_8_-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/webp.net-resizeimage_8_-1024x1024-1024x1024-1024x1024-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/webp.net-resizeimage_8_-1024x1024-1024x1024-1024x1024-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/webp.net-resizeimage_8_-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/130426-1024x1024-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/130426-1024x1024-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/130426-1024x1024-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/130426-1024x1024-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/TS1362-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/TS1362-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/TS1362-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/TS1362-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "de0e11f1-960d-4794-8c20-ba2e650c07e8",
+    "name": "Nebulizers",
+    "parent_id": "8b0089e7-da33-4fb1-9bbf-9266bc0dd111",
+    "slug": "nebulizers"
+    }
+    ],
+    "slug": "trister-ultrasonic-mesh-nebulizer-model-ts-136nzm",
+    "pre_order": false,
+    "type": "otc",
+    "label": {
+    "label_text": "Best Seller",
+    "sub_label_text": null,
+    "icon_type": "2",
+    "color_code": "#d86e18",
+    "active": true
+    },
+    "rating": "4.3",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "253",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 397.95,
+    "offer_price": 261.45,
+    "offer_label": "34% OFF",
+    "offer_type": "flat_discount",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "6ddeacb8-b421-43c6-84ff-61f17b2da8e6",
+    "title": "La Roche Posay Anthelios Invisible Face Mist (SPF50) Face Protection 75ml",
+    "inventory": {
+    "sku": "122540"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/EcomApp/products/Ajas/3337875549530_1.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": []
+    },
+    "categories": [
+    {
+    "id": "814dfe16-a4bc-451b-91a3-a91b6e76d551",
+    "name": "Mist Spray",
+    "parent_id": "5b822727-f534-4fdb-940f-827ba0004778",
+    "slug": "mist-spray"
+    },
+    {
+    "id": "d130963c-e8f0-4500-969e-da5587c647d5",
+    "name": "Face Sunscreen",
+    "parent_id": "762638a7-9a39-4d6d-8edd-a5d1e57890be",
+    "slug": "face-lips-sunscreen"
+    }
+    ],
+    "slug": "la-roche-posay-anthelios-invisible-face-mist-spf50-face-protection-75-ml",
+    "pre_order": false,
+    "type": "otc",
+    "label": {
+    "label_text": "Best Seller",
+    "sub_label_text": null,
+    "icon_type": "2",
+    "color_code": "#d86e18",
+    "active": true
+    },
+    "rating": "4.7",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "3151",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 113.01,
+    "offer_price": 58.92,
+    "offer_label": "48% OFF",
+    "offer_type": "flat_discount",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "bfc377ef-fc5e-402f-8e34-0f43131050dc",
+    "title": "Sunshine Nutrition Ultra Concentrate Omega-3 950mg EPA & DHA 100 Softgels",
+    "inventory": {
+    "sku": "122275"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/s/u/sunshine-n-ultra-conc-omega-3-950-mg-epa-dha-100-sg_3.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/sunshine-n-ultra-conc-omega-3-950-mg-epa-dha-100-sg_3-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/sunshine-n-ultra-conc-omega-3-950-mg-epa-dha-100-sg_3-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/sunshine-n-ultra-conc-omega-3-950-mg-epa-dha-100-sg_3-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/sunshine-n-ultra-conc-omega-3-950-mg-epa-dha-100-sg_3-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/omega_-_3_950_mg_epa_dha_ultra_concenrated__1-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/omega_-_3_950_mg_epa_dha_ultra_concenrated__1-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/omega_-_3_950_mg_epa_dha_ultra_concenrated__1-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/omega_-_3_950_mg_epa_dha_ultra_concenrated__1-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/omega-3_950-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/omega-3_950-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/omega-3_950-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/omega-3_950-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/122275-5-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/122275-5-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/122275-5-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/122275-5-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "84966300-75d8-46cc-8ed2-4672da5f3971",
+    "name": "Fish Oils",
+    "parent_id": "eb435499-3d70-40cf-8cd2-b3d085c0573f",
+    "slug": "fish-oils"
+    },
+    {
+    "id": "b7edb7d7-fc9f-401d-b51c-47b7078206e7",
+    "name": "Heart Health",
+    "parent_id": "911ea949-3ff0-412e-8c1a-fe99db8c5274",
+    "slug": "heart-health"
+    },
+    {
+    "id": "d13a4424-00da-4bda-885f-0da4d657a79d",
+    "name": "Fish Oil & Omegas",
+    "parent_id": "eee0106c-c6a4-40b2-b8fc-0e29ca9d39b5",
+    "slug": "fish-oil-omegas"
+    },
+    {
+    "id": "ea70fc2b-1b36-4ec0-8cd1-8c097aa0db6d",
+    "name": "Immune Support",
+    "parent_id": "911ea949-3ff0-412e-8c1a-fe99db8c5274",
+    "slug": "immune-support"
+    }
+    ],
+    "slug": "sunshine-nutrition-ultra-concentrate-omega-3-950mg-epa-dha-100-softgels",
+    "pre_order": false,
+    "type": "otc",
+    "label": {
+    "label_text": "Best Seller",
+    "sub_label_text": null,
+    "icon_type": "2",
+    "color_code": "#d86e18",
+    "active": true
+    },
+    "rating": "4.8",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "480",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 252,
+    "offer_price": 176.4,
+    "offer_label": "30% OFF",
+    "offer_type": "flat_discount",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "e92d33de-7e23-41e8-bf16-73f5145a0961",
+    "title": "Muscle Core L-Carnitine 4500 89 ml 12 pcs",
+    "inventory": {
+    "sku": "127200"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/EcomApp/products/Ajas/127200-9.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": []
+    },
+    "categories": [
+    {
+    "id": "c49d02e0-0219-487d-9fbb-25c514b61d1c",
+    "name": "Fat Burners",
+    "parent_id": "ebbd81b7-5f49-416d-a989-0d2f088123f3",
+    "slug": "fat-burners"
+    }
+    ],
+    "slug": "muscle-core-l-carnitine-4500-89-ml-12-pcs",
+    "pre_order": false,
+    "type": "otc",
+    "label": {
+    "label_text": "Best Seller",
+    "sub_label_text": null,
+    "icon_type": "2",
+    "color_code": "#d86e18",
+    "active": true
+    },
+    "rating": "4.7",
+    "stock": {
+    "max": 15,
+    "delivery_icons": [
+    {
+    "until": "194.25",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 151.2,
+    "offer_price": 151.2,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "1f44a651-343c-478a-8d75-f5ea3ebb86d2",
+    "title": "Sunshine Nutrition Cool Gummies Kids Vitamin C 120's Gummies",
+    "inventory": {
+    "sku": "129184"
+    },
+    "images": {
+    "featured_image": "https://lifeadmin-app.s3.me-south-1.amazonaws.com/EcomApp/products/Product/CG-2.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/CG-2-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/CG-2-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/CG-2-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/CG-2-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/129184-5-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/129184-5-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/129184-5-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/129184-5-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "28f8bf33-a53e-48c6-9942-c40f7e8c6dd0",
+    "name": "Kids Health",
+    "parent_id": "531d6678-8c3e-4d86-af13-d1fb01818f3c",
+    "slug": "kids-health"
+    },
+    {
+    "id": "89ed7f86-dd55-4fd7-95c5-bd2ecdd01e45",
+    "name": "Kids Gummies",
+    "parent_id": "eee0106c-c6a4-40b2-b8fc-0e29ca9d39b5",
+    "slug": "kids-gummies"
+    },
+    {
+    "id": "9542cb66-66c8-44d9-86ac-e4f52e95896c",
+    "name": "Vitamin C",
+    "parent_id": "3f2f7aa0-ebc7-4446-9381-656c0f1cfc35",
+    "slug": "vitamin-c"
+    },
+    {
+    "id": "ea70fc2b-1b36-4ec0-8cd1-8c097aa0db6d",
+    "name": "Immune Support",
+    "parent_id": "911ea949-3ff0-412e-8c1a-fe99db8c5274",
+    "slug": "immune-support"
+    }
+    ],
+    "slug": "sunshine-nutrition-cool-gummies-kids-vitamin-c-120-s-gummies",
+    "pre_order": false,
+    "type": "otc",
+    "rating": "4.8",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "1290",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 103.95,
+    "offer_price": 51.98,
+    "offer_label": "50% OFF",
+    "offer_type": "flat_discount",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "6dd72ccf-73d5-4d15-a7aa-27c301c457f8",
+    "title": "Ensure Powder 850g",
+    "inventory": {
+    "sku": "122740"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/PRODUCT%20IMAGE/Ensure%20850-front.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/122740-002-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/122740-002-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/122740-002-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/122740-002-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/122740-003-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/122740-003-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/122740-003-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/122740-003-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/122740-004-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/122740-004-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/122740-004-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/122740-004-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/122740-005-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/122740-005-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/122740-005-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/122740-005-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "b5564a85-eb06-476f-91e5-9e47c6f6c7ab",
+    "name": "Senior Health",
+    "parent_id": "531d6678-8c3e-4d86-af13-d1fb01818f3c",
+    "slug": "senior-health"
+    }
+    ],
+    "slug": "ensure-powder-850-g",
+    "pre_order": false,
+    "type": "otc",
+    "label": {
+    "label_text": "Best Seller",
+    "sub_label_text": null,
+    "icon_type": "2",
+    "color_code": "#d86e18",
+    "active": true
+    },
+    "rating": "4.9",
+    "stock": {
+    "max": 5,
+    "delivery_icons": [
+    {
+    "until": "792",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 51.98,
+    "offer_price": 51.98,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "50d6ff0a-8e9d-4059-b66a-c9334259e81b",
+    "title": "CH Alpha Plus Drinkable Vial 30s",
+    "inventory": {
+    "sku": "133996"
+    },
+    "slug": "ch-alpha-plus-drinkable-vial-30s",
+    "categories": [
+    {
+    "id": "2c6ad55c-980d-409c-ab3a-47230cbd5ea7",
+    "name": "Joint Support",
+    "parent_id": "eb435499-3d70-40cf-8cd2-b3d085c0573f",
+    "slug": "joint-support"
+    }
+    ],
+    "pre_order": false,
+    "type": "otc",
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/EcomApp/products/Ajas/133996-4.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": []
+    },
+    "label": {
+    "label_text": "Best Seller",
+    "sub_label_text": null,
+    "icon_type": "2",
+    "color_code": "#d86e18",
+    "active": true
+    },
+    "rating": "4.9",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "554",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 320,
+    "offer_price": 320,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "a517985e-98b8-4298-b520-a1b5db22e6a4",
+    "title": "Prospan Cough Syrup Bottle 200ml",
+    "inventory": {
+    "sku": "132820"
+    },
+    "slug": "prospan-cough-syrup-200ml-bot",
+    "type": "otc",
+    "images": {
+    "featured_image": "https://lifeadmin-app.s3.me-south-1.amazonaws.com/EcomApp/products/aNwar%201/132820-01.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/132820-02-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/132820-02-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/132820-02-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/132820-02-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/132820-001-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/132820-001-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/132820-001-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/132820-001-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "056e2c90-cc57-4a39-b93a-904ac0bb3822",
+    "name": "Cough Remedies",
+    "parent_id": "c4d39213-9249-49a1-bf23-073b977732a9",
+    "slug": "cough-remedies"
+    }
+    ],
+    "pre_order": false,
+    "rating": "5.0",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "7160",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 55,
+    "offer_price": 55,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "title": "Sunshine Nutrition Hair Max 100 Tablets",
+    "id": "87eba140-63d6-4a7e-8faf-c40663093128",
+    "slug": "sunshine-nutrition-hair-max-100-tablets",
+    "inventory": {
+    "sku": "133929"
+    },
+    "categories": [
+    {
+    "id": "195b3b45-5785-48f5-bae4-63c5ad4c37fc",
+    "name": "Hair Loss Supplements",
+    "parent_id": "46f41e00-dd0b-459b-b689-8d7939ba4f86",
+    "slug": "hair-loss-supplements"
+    },
+    {
+    "id": "46f41e00-dd0b-459b-b689-8d7939ba4f86",
+    "name": "Beauty Supplements",
+    "parent_id": "72d55f39-67e8-46dd-9135-66916953f7e4",
+    "slug": "beauty-supplements"
+    },
+    {
+    "id": "7dee3256-49e2-4a2f-879e-9dc22234a5b0",
+    "name": "Hair Care",
+    "parent_id": "72d55f39-67e8-46dd-9135-66916953f7e4",
+    "slug": "hair-care"
+    },
+    {
+    "id": "967c5729-a729-40df-b603-3c210f4d4241",
+    "name": "Collagen",
+    "parent_id": "eee0106c-c6a4-40b2-b8fc-0e29ca9d39b5",
+    "slug": "collagen-60c1c134"
+    },
+    {
+    "id": "f43ef95b-f96b-48ee-bf7b-6f49ee5c688d",
+    "name": "Hair, Skin & Nail Formulas",
+    "parent_id": "46f41e00-dd0b-459b-b689-8d7939ba4f86",
+    "slug": "hair-skin-nail-formulas"
+    },
+    {
+    "id": "f7df4a4a-e87d-46cf-987a-b3558bb8de9d",
+    "name": "Biotin",
+    "parent_id": "46f41e00-dd0b-459b-b689-8d7939ba4f86",
+    "slug": "biotin"
+    }
+    ],
+    "pre_order": false,
+    "type": "otc",
+    "images": {
+    "featured_image": "https://lifeadmin-app.s3.me-south-1.amazonaws.com/EcomApp/products/Ajas/Sunshine-Hair-Max-700px.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/Sunshine-Hair-Max-700px-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/Sunshine-Hair-Max-700px-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/Sunshine-Hair-Max-700px-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/Sunshine-Hair-Max-700px-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/IMG-20230428-WA0010-1024x1024-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/IMG-20230428-WA0010-1024x1024-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/IMG-20230428-WA0010-1024x1024-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/IMG-20230428-WA0010-1024x1024-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/hairmax-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/hairmax-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/hairmax-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/hairmax-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/hm-np-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/hm-np-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/hm-np-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/hm-np-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/hm-np2-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/hm-np2-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/hm-np2-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/hm-np2-1024x1024.jpg"
+    }
+    ]
+    },
+    "label": {
+    "label_text": "Best Seller",
+    "sub_label_text": null,
+    "icon_type": "2",
+    "color_code": "#d86e18",
+    "active": true
+    },
+    "rating": "4.7",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "3",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 236.25,
+    "offer_price": 189,
+    "offer_label": "20% OFF",
+    "offer_type": "flat_discount",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "4935a3ec-ada7-4c98-b41e-d949ae3e2d44",
+    "title": "Sanotint Sensitive 125 ml Black 71",
+    "inventory": {
+    "sku": "119697"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/1/1/119697-sanotint_sensitive_125_ml_black_71.jpg",
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/119697-sanotint_sensitive_125_ml_black_71-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/119697-sanotint_sensitive_125_ml_black_71-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/119697-sanotint_sensitive_125_ml_black_71-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/119697-sanotint_sensitive_125_ml_black_71-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "beba9873-fbae-4ea6-bc17-24a5a02604c1",
+    "name": "Hair Coloring",
+    "parent_id": "7dee3256-49e2-4a2f-879e-9dc22234a5b0",
+    "slug": "hair-coloring"
+    }
+    ],
+    "slug": "sanotint-sensitive-125-ml-black-71",
+    "rating": "2.7",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "180",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 78.75,
+    "offer_price": 78.75,
+    "offer_label": "BUY2 GET1",
+    "offer_type": "combo",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "f4b28356-2614-4d2d-bec0-1740e242b9bb",
+    "title": "Dymatize Iso 100 5 Lb Chocolate",
+    "inventory": {
+    "sku": "110340"
+    },
+    "images": {
+    "featured_image": "https://lifeadmin-app.s3.me-south-1.amazonaws.com/EcomApp/products/Ajas/110340-11.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/110340-11-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/110340-11-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/110340-11-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/110340-11-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/110340-11-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/110340-11-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/110340-11-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/110340-11-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/110340-12-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/110340-12-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/110340-12-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/110340-12-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/110340-13-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/110340-13-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/110340-13-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/110340-13-1024x1024-1024x1024.jpg"
+    },
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/110340-14-1024x1024-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/110340-14-1024x1024-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/110340-14-1024x1024-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/110340-14-1024x1024-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "66acdcaa-8001-4b87-be74-1d0f1398cffa",
+    "name": "Isolate/Hydrolysed Whey Proteins",
+    "parent_id": "684ea7e4-b4be-41f9-ac8d-a5077d729672",
+    "slug": "isolate-hydrolysed-whey-proteins"
+    }
+    ],
+    "slug": "dymatize-iso-100-5-lb-chocolate",
+    "pre_order": false,
+    "type": "otc",
+    "label": {
+    "label_text": "Free Shaker",
+    "icon_type": "2",
+    "color_code": "#f10966",
+    "active": true,
+    "end_time": "2025-02-28T23:59",
+    "start_time": "2024-11-30T17:22",
+    "sub_label_text": null
+    },
+    "rating": "4.6",
+    "stock": {
+    "max": 7,
+    "delivery_icons": [
+    {
+    "until": "7",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 250.95,
+    "offer_price": 250.95,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "a59922b2-cf2d-4bfc-a2bd-9b7aab568408",
+    "title": "Aspirin C Effervescent Tablets 10's",
+    "inventory": {
+    "sku": "108407"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/EcomApp/products/108407.jpg",
+    "gallery_images": []
+    },
+    "categories": [
+    {
+    "id": "e3d599ae-61a1-435c-a856-e753ff8f6c2f",
+    "name": "Cold & Flu",
+    "parent_id": "c4d39213-9249-49a1-bf23-073b977732a9",
+    "slug": "cold-flu"
+    }
+    ],
+    "slug": "aspirin-c-effervescent-tablets-10-s",
+    "type": "otc",
+    "rating": "4.7",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "4907",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 21.5,
+    "offer_price": 21.5,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "a280fba0-e44e-4542-89c1-12821aa91378",
+    "title": "Oilatum Gentle Cleansing Bar 100g",
+    "inventory": {
+    "sku": "139180"
+    },
+    "slug": "oilatum-gentle-cleansing-bar-100g-108613",
+    "categories": [
+    {
+    "id": "175c06a5-dedf-4166-b7b1-dab0f7e32962",
+    "name": "Dry Skin",
+    "parent_id": "ac1f2142-9e81-4700-aaa3-64eb7f62bfb3",
+    "slug": "dry-skin"
+    },
+    {
+    "id": "7582aac8-7f68-4b98-8d20-9a612f9eb890",
+    "name": "Cleansing Bars/Soaps",
+    "parent_id": "029126e9-2ca9-491e-834b-e3bd88d36238",
+    "slug": "cleansing-bars-soaps"
+    }
+    ],
+    "pre_order": false,
+    "type": "otc",
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/EcomApp/products/Ajas/139180-4.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": []
+    },
+    "rating": "5.0",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "226",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 38.85,
+    "offer_price": 19.95,
+    "offer_label": "49% OFF",
+    "offer_type": "flat_discount",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "57902430-2128-49fa-a945-bd58da9dd5c1",
+    "title": "Radian Ice Cooling Gel Roll On 75 ml",
+    "inventory": {
+    "sku": "130865"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/ice%20roll.jpg",
+    "featured_video": null,
+    "other_images": [],
+    "gallery_images": []
+    },
+    "slug": "radian-ice-cooling-gel-roll-on-75-ml",
+    "categories": [
+    {
+    "id": "a3d400ee-44d4-4241-91f9-8ced17a59499",
+    "name": "Muscles & Joint Pain",
+    "slug": "muscles-joint-pain"
+    }
+    ],
+    "pre_order": false,
+    "type": "otc",
+    "rating": "4.7",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "540",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 37.8,
+    "offer_price": 37.8,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "fe84d334-6d53-4dc0-b9a1-550f9ad6feb8",
+    "title": "Gold Collagen Forte 10's Pack",
+    "inventory": {
+    "sku": "113340"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/1/1/113340-gold_collagen_forte_10_s_pack.jpg",
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/113340-gold_collagen_forte_10_s_pack-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/113340-gold_collagen_forte_10_s_pack-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/113340-gold_collagen_forte_10_s_pack-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/113340-gold_collagen_forte_10_s_pack-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "2c6ad55c-980d-409c-ab3a-47230cbd5ea7",
+    "name": "Joint Support",
+    "parent_id": "eb435499-3d70-40cf-8cd2-b3d085c0573f",
+    "slug": "joint-support"
+    },
+    {
+    "id": "967c5729-a729-40df-b603-3c210f4d4241",
+    "name": "Collagen",
+    "parent_id": "eee0106c-c6a4-40b2-b8fc-0e29ca9d39b5",
+    "slug": "collagen-60c1c134"
+    },
+    {
+    "id": "af6f6f59-774e-47b7-a4ec-419ecbd3e9ab",
+    "name": "Joint Health",
+    "parent_id": "911ea949-3ff0-412e-8c1a-fe99db8c5274",
+    "slug": "joint-health"
+    },
+    {
+    "id": "e5773d1f-565b-426f-86bc-7adbb38931a1",
+    "name": "Collagen Drinks",
+    "parent_id": "6d22fdcf-1b08-4089-b50e-48df3e109cb3",
+    "slug": "collagen-drinks"
+    },
+    {
+    "id": "f43ef95b-f96b-48ee-bf7b-6f49ee5c688d",
+    "name": "Hair, Skin & Nail Formulas",
+    "parent_id": "46f41e00-dd0b-459b-b689-8d7939ba4f86",
+    "slug": "hair-skin-nail-formulas"
+    },
+    {
+    "id": "fbb5e035-06e0-4f06-abe0-1732b7e01e78",
+    "name": "Collagen",
+    "parent_id": "46f41e00-dd0b-459b-b689-8d7939ba4f86",
+    "slug": "collagen"
+    },
+    {
+    "id": "fe1fb65f-b3c0-45ad-9853-e78eadfb77fb",
+    "name": "Hair, Skin & Nails",
+    "parent_id": "911ea949-3ff0-412e-8c1a-fe99db8c5274",
+    "slug": "hair-skin-nails"
+    }
+    ],
+    "slug": "gold-collagen-forte-10-s-pack",
+    "rating": "4.8",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "13",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 367.5,
+    "offer_price": 367.5,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "ecf49085-1932-400b-9bb6-5eb5cce94f5a",
+    "title": "FLUTIFORM 125MCG/5MCG INHALER",
+    "inventory": {
+    "sku": "113444"
+    },
+    "slug": "flutiform-125mcg-5mcg-inhaler",
+    "type": "rx",
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/EcomApp/products/Product/rx-med.png",
+    "other_images": [],
+    "gallery_images": []
+    },
+    "rating": "5.0",
+    "stock": {
+    "max": 3,
+    "delivery_icons": [
+    {
+    "until": "3",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 237.5,
+    "offer_price": 237.5,
+    "offer_label": null,
+    "offer_type": null,
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    },
+    {
+    "id": "eef0333b-62cd-4183-a281-b1d14d19a4b0",
+    "title": "Betadine Ointment 40 g",
+    "inventory": {
+    "sku": "113438"
+    },
+    "images": {
+    "featured_image": "https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/o/i/ointment_composite.jpg",
+    "other_images": [],
+    "gallery_images": [
+    {
+    "image": "https://life-cdn.lifepharmacy.com/images/products/ointment_composite-1024x1024.jpg",
+    "thumbnail": "https://life-cdn.lifepharmacy.com/images/products/ointment_composite-150x150.jpg",
+    "medium": "https://life-cdn.lifepharmacy.com/images/products/ointment_composite-300x300.jpg",
+    "full": "https://life-cdn.lifepharmacy.com/images/products/ointment_composite-1024x1024.jpg"
+    }
+    ]
+    },
+    "categories": [
+    {
+    "id": "035a3c29-a19f-46b1-8213-872b5b5a429e",
+    "name": "Wound Healing & Care",
+    "parent_id": "c4d39213-9249-49a1-bf23-073b977732a9",
+    "slug": "wound-healing-care"
+    },
+    {
+    "id": "94275181-fbf2-41b2-99fe-a68f9ec5e907",
+    "name": "Burn Relief",
+    "parent_id": "093b1593-4a89-4c29-b404-432e6bfc4ca4",
+    "slug": "burn-relief"
+    }
+    ],
+    "slug": "betadine-ointment-40-g",
+    "pre_order": false,
+    "type": "otc",
+    "rating": "4.8",
+    "stock": {
+    "max": 10,
+    "delivery_icons": [
+    {
+    "until": "4028",
+    "icon": "standard",
+    "label": "2-3 days"
+    }
+    ]
+    },
+    "sale": {
+    "currency": "AED",
+    "regular_price": 50.5,
+    "offer_price": 37.88,
+    "offer_label": "25% OFF",
+    "offer_type": "flat_discount",
+    "member_price": 0,
+    "subscription_price": 0,
+    "vat_text": "Inclusive of VAT"
+    }
+    }
+    ]
+    }
+    }
+    
