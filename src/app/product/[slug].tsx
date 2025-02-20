@@ -116,18 +116,7 @@ export default function ProductDetailsScreen() {
               />
             ))}
           </ScrollView>
-          
-          {/* <View style={styles.imageIndicators}>
-            {allImages.map((_, index) => (
-              <View
-                key={index}
-                style={[
-                  styles.indicator,
-                  index === activeImageIndex && styles.activeIndicator
-                ]}
-              />
-            ))}
-          </View> */}
+        
 
           {/* Labels */}
           <View style={styles.labelsContainer}>
@@ -306,7 +295,7 @@ export default function ProductDetailsScreen() {
                 <FontAwesome 
                   name={benefit.icon} 
                   size={20} 
-                  color={theme.colors.primary} 
+                  color={theme.colors.secondary} 
                 />
               </View>
               <View style={styles.benefitContent}>
@@ -452,7 +441,7 @@ const styles = StyleSheet.create({
   brandName: {
     fontSize: theme.typography.sizes.md,
     fontFamily: theme.typography.fonts.semiBold,
-    color: theme.colors.textPrimary,
+    color: theme.colors.textTertiary,
   },
   viewBrand: {
     fontSize: theme.typography.sizes.sm,
@@ -460,9 +449,9 @@ const styles = StyleSheet.create({
     color: theme.colors.primary,
   },
   title: {
-    fontSize: theme.typography.sizes.xl,
+    fontSize: theme.typography.sizes.lg,
     fontFamily: theme.typography.fonts.semiBold,
-    color: theme.colors.textPrimary,
+    color: theme.colors.textSecondary,
     marginBottom: spacing.md,
   },
   categoriesContainer: {
@@ -507,9 +496,9 @@ const styles = StyleSheet.create({
     marginBottom: spacing.xs,
   },
   currentPrice: {
-    fontSize: 28,
+    fontSize: 24,
     fontFamily: theme.typography.fonts.semiBold,
-    color: theme.colors.textPrimary,
+    color: theme.colors.textSecondary,
     marginRight: spacing.sm,
   },
   originalPrice: {
@@ -571,11 +560,12 @@ const styles = StyleSheet.create({
   },
   sectionTitle: {
     fontSize: theme.typography.sizes.lg,
-    fontFamily: theme.typography.fonts.semiBold,
+    fontFamily: theme.typography.fonts.medium,
     marginBottom: spacing.md,
+    color: theme.colors.textSecondary,
   },
   descriptionText: {
-    fontSize: theme.typography.sizes.md,
+    fontSize: theme.typography.sizes.sm,
     fontFamily: theme.typography.fonts.regular,
     color: theme.colors.textSecondary,
     lineHeight: theme.typography.lineHeights.md,
@@ -702,9 +692,9 @@ const styles = StyleSheet.create({
     ...theme.shadows.sm
   },
   benefitsTitle: {
-    fontSize: theme.typography.sizes.xl,
+    fontSize: theme.typography.sizes.lg,
     fontFamily: theme.typography.fonts.semiBold,
-    color: theme.colors.textPrimary,
+    color: theme.colors.textTertiary,
     marginBottom: spacing.lg,
   },
   benefitItem: {
@@ -727,7 +717,7 @@ const styles = StyleSheet.create({
   benefitTitle: {
     fontSize: theme.typography.sizes.md,
     fontFamily: theme.typography.fonts.semiBold,
-    color: theme.colors.textPrimary,
+    color: theme.colors.textTertiary,
     marginBottom: spacing.xs,
   },
   benefitDescription: {
