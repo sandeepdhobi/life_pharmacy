@@ -9,7 +9,15 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "_comment1": "Run the following command to create a new development build that requires native changes thats supported through expo",
+    "build-dev-native": "eas build --profile development-simulator --clear-cache --platform ios",
+    "_comment2": "Run the following command to create a new development build that requires native changes thats supported through expo for android",
+    "build-dev-native-android": "eas build --profile development --platform android",
+    "_comment3": "Run the following command to download and run the dev build in the simulator",
+    "run-dev-native": "eas build:run",
+    "build_production_android": "eas build --platform android --profile production",
+    "build-preview": "eas build --platform android --profile preview"
   },
   "jest": {
     "preset": "jest-expo"
@@ -24,6 +32,7 @@
     "expo": "~52.0.36",
     "expo-blur": "~14.0.3",
     "expo-constants": "~17.0.7",
+    "expo-dev-client": "~5.0.12",
     "expo-font": "~13.0.4",
     "expo-haptics": "~14.0.1",
     "expo-linking": "~7.0.5",
