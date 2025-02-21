@@ -115,7 +115,7 @@ export default function ProductDetailsScreen() {
         }
       });
       setShowConfetti(true);
-      setTimeout(() => setShowConfetti(false), 2000);
+      setTimeout(() => setShowConfetti(false), 3000);
     } else {
       router.push('/cart');
     }
@@ -343,7 +343,7 @@ export default function ProductDetailsScreen() {
       {showConfetti && (
         <ConfettiCannon
           count={100}
-          origin={{x: width/2, y: width}}
+          origin={{x: width/2, y: Dimensions.get('window').height - 100}}
           autoStart={true}
           fadeOut={false}
         />
