@@ -20,6 +20,7 @@ import HTML from 'react-native-render-html';
 import { FontAwesome } from '@expo/vector-icons';
 import { useCart } from '../../context/CartContext';
 import { theme, spacing, borderRadii } from '../../constants/theme';
+import ConfettiCannon from 'react-native-confetti-cannon';
 
 const { width } = Dimensions.get('window');
 
@@ -54,8 +55,9 @@ const BENEFITS = [
 export default function ProductDetailsScreen() {
   const { slug } = useLocalSearchParams<{ slug: string }>();
   const [activeImageIndex, setActiveImageIndex] = useState(0);
-  const { dispatch } = useCart();
+  const { state, dispatch } = useCart();
   const [showFullDescription, setShowFullDescription] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(false);
 
   const { data, isLoading, error } = useQuery({
     queryKey: ['product', slug],
@@ -92,6 +94,32 @@ export default function ProductDetailsScreen() {
     product.images.featured_image,
     ...product.images.gallery_images.map(img => img.full)
   ];
+
+  // Check if product is in cart
+  const isInCart = state.items.some(item => item.product.id === product.id);
+
+  const handleBuyPress = () => {
+    if (!isInCart) {
+      dispatch({ 
+        type: 'ADD_TO_CART', 
+        payload: {
+          id: product.id,
+          title: product.title,
+          images: product.images,
+          sale: {
+            ...product.sale,
+            member_price: 0,
+            subscription_price: 0
+          },
+          quantity: 1
+        }
+      });
+      setShowConfetti(true);
+      setTimeout(() => setShowConfetti(false), 2000);
+    } else {
+      router.push('/cart');
+    }
+  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -311,6 +339,16 @@ export default function ProductDetailsScreen() {
 
       {/* Bottom Bar */}
       <View style={styles.bottomBar}>
+
+      {showConfetti && (
+        <ConfettiCannon
+          count={100}
+          origin={{x: width/2, y: width}}
+          autoStart={true}
+          fadeOut={false}
+        />
+      )}
+      
         <View style={styles.bottomBarContent}>
           <View style={styles.priceSection}>
             <View style={styles.priceRow}>
@@ -337,22 +375,10 @@ export default function ProductDetailsScreen() {
             ))}
           </View>
           <TouchableOpacity 
-            style={styles.buyButton}
-            onPress={() => {
-              if (product.stock.max > 0) {
-                dispatch({ 
-                  type: 'ADD_TO_CART', 
-                  payload: {
-                    ...product,
-                    sale: {
-                      ...product.sale,
-                      member_price: 0,
-                      subscription_price: 0
-                    }
-                  } 
-                });
-              }
-            }}
+            style={[
+              styles.buyButton
+            ]} 
+            onPress={handleBuyPress}
           >
             <FontAwesome 
               name="shopping-cart" 
@@ -360,7 +386,9 @@ export default function ProductDetailsScreen() {
               color={theme.colors.background}
               style={styles.cartIcon} 
             />
-            <Text style={styles.buyButtonText}>Buy</Text>
+            <Text style={styles.buyButtonText}>
+              {isInCart ? 'Checkout' : 'Buy'}
+            </Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -782,5 +810,8 @@ const styles = StyleSheet.create({
     color: theme.colors.background,
     fontSize: theme.typography.sizes.sm,
     fontFamily: theme.typography.fonts.medium,
+  },
+  checkoutButton: {
+    backgroundColor: theme.colors.success,
   },
 }); 
