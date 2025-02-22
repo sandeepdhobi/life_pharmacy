@@ -1,5 +1,3 @@
-// Move all content from src/app/index.tsx here
-// Keep the same code, just rename the component to SearchScreen
 import React, { useState, useMemo } from 'react';
 import { 
   StyleSheet, 

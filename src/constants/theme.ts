@@ -81,6 +81,7 @@ export const lightTheme = {
     skeleton: '#E5E5EA',
     skeletonContrast: '#E5E5EA',
     overlay: 'rgba(0, 0, 0, 0.4)',
+    lightGray: '#FAFAFA',
   },
   shadows: {
     sm: {
@@ -133,6 +134,7 @@ export const darkTheme = {
     skeleton: '#545456',
     skeletonContrast: '#6a6a6e',
     overlay: 'rgba(0, 0, 0, 0.6)',
+    lightGray: '#FAFAFA',
   },
   shadows: {
     sm: {

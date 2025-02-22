@@ -259,16 +259,26 @@ export default function ProductDetailsScreen() {
 
         {/* Reviews */}
         <View style={styles.reviewsSection}>
-          {product.reviews && product.reviews.length > 0 && (
+          {data.reviews && data.reviews.length > 0 && (
             <>
               <Text style={styles.sectionTitle}>Customer Reviews</Text>
-              {product.reviews.slice(0, 2).map(review => (
+              {data.reviews.slice(0, 5).map(review => (
                 <View key={review._id} style={styles.reviewItem}>
                   <View style={styles.reviewHeader}>
-                    <Image 
-                      source={{ uri: review.user_details.photo }}
-                      style={styles.reviewerPhoto}
-                    />
+                    {review.user_details.photo ? (
+                      <Image 
+                        source={{ uri: review.user_details.photo }}
+                        style={styles.reviewerPhoto}
+                      />
+                    ) : (
+                      <View style={[styles.reviewerPhoto, styles.defaultPhotoContainer]}>
+                        <FontAwesome 
+                          name="user-circle" 
+                          size={30} 
+                          color={theme.colors.borderLight} 
+                        />
+                      </View>
+                    )}
                     <View>
                       <Text style={styles.reviewerName}>
                         {review.is_anonymous ? 'Anonymous' : review.user_details.name}
@@ -293,21 +303,6 @@ export default function ProductDetailsScreen() {
                   )}
                 </View>
               ))}
-              {product.reviews.length > 2 && (
-                <Pressable 
-                  style={styles.viewAllButton}
-                  onPress={() => {/* Navigate to all reviews */}}
-                >
-                  <Text style={styles.viewAllText}>
-                    View all {product.reviews.length} reviews
-                  </Text>
-                  <FontAwesome 
-                    name="chevron-right" 
-                    size={14} 
-                    color={theme.colors.primary}
-                  />
-                </Pressable>
-              )}
             </>
           )}
         </View>
@@ -615,9 +610,11 @@ const styles = StyleSheet.create({
   },
   reviewItem: {
     padding: spacing.md,
-    backgroundColor: theme.colors.surface,
+    backgroundColor: theme.colors.lightGray,
     borderRadius: borderRadii.md,
     marginBottom: spacing.md,
+    borderWidth: 1,
+    borderColor: '#f0f0f0',
   },
   reviewHeader: {
     flexDirection: 'row',
@@ -625,14 +622,15 @@ const styles = StyleSheet.create({
     marginBottom: spacing.sm,
   },
   reviewerPhoto: {
-    width: 40,
-    height: 40,
+    width: 30,
+    height: 30,
     borderRadius: 20,
     marginRight: spacing.sm,
   },
   reviewerName: {
     fontSize: theme.typography.sizes.sm,
     fontFamily: theme.typography.fonts.medium,
+    color: theme.colors.textSecondary,
   },
   reviewRating: {
     flexDirection: 'row',
@@ -813,5 +811,9 @@ const styles = StyleSheet.create({
   },
   checkoutButton: {
     backgroundColor: theme.colors.success,
+  },
+  defaultPhotoContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 }); 

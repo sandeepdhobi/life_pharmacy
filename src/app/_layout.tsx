@@ -4,7 +4,6 @@ import { Stack } from 'expo-router';
 import { CartProvider } from '../context/CartContext';
 import { CartButton } from '../components/CartButton';
 import * as Font from 'expo-font';
-import { useCallback } from 'react';
 import { Platform, View } from 'react-native';
 import * as SplashScreen from 'expo-splash-screen';
 
@@ -22,10 +21,16 @@ export default function RootLayout() {
     'Onest-Bold': require('../../assets/fonts/Onest-Bold.ttf'),
   });
 
-  const onLayoutRootView = useCallback(async () => {
-    if (fontsLoaded) {
-      await SplashScreen.hideAsync();
-    }
+  useEffect(() => {
+    const hideSplash = async () => {
+      if (fontsLoaded) {
+        // Wait for 2 seconds before hiding splash screen
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        await SplashScreen.hideAsync();
+      }
+    };
+    
+    hideSplash();
   }, [fontsLoaded]);
 
   if (!fontsLoaded) {
@@ -37,34 +42,11 @@ export default function RootLayout() {
   return (
     <QueryClientProvider client={queryClient}>
       <CartProvider>
-        <View style={{ flex: 1 }} onLayout={onLayoutRootView}>
+        <View style={{ flex: 1 }}>
           <Stack>
-            <Stack.Screen
-              name="SearchScreen/index"
-              options={{
-                headerShown: false
-              }}
-            />
-            <Stack.Screen
-              name="product/[slug]"
-              options={{
-                title: 'Product Details',
-                headerRight: () => <CartButton />,
-                headerTitleStyle: {
-                  fontFamily: 'Onest-SemiBold',
-                }
-              }}
-            />
-            <Stack.Screen
-              name="cart"
-              options={{
-                presentation: formSheet,
-                title: 'Shopping Cart',
-                headerTitleStyle: {
-                  fontFamily: 'Onest-SemiBold',
-                }
-              }}
-            />
+            <Stack.Screen name="SearchScreen/index" options={{ headerShown: false }} />
+            <Stack.Screen name="product/[slug]" options={{ title: 'Product Details', headerRight: () => <CartButton /> }} />
+            <Stack.Screen name="cart" options={{ presentation: formSheet, title: 'Shopping Cart' }} />
           </Stack>
         </View>
       </CartProvider>

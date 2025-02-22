@@ -21,7 +21,7 @@ export const getProducts = async ({ pageParam = 0 }) => {
   
   return {
     data: response.data.data.products,
-    hasMore: response.data.data.products.length === 20, // If we got full page, assume there's more
+    hasMore: true, // If we got full page, assume there's more
   };
 };
 
