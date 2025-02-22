@@ -241,8 +241,8 @@ export const styles = StyleSheet.create({
   },
   reviewerName: {
     fontSize: theme.typography.sizes.sm,
-    fontFamily: theme.typography.fonts.medium,
-    color: theme.colors.textSecondary,
+    fontFamily: theme.typography.fonts.light,
+    color: theme.colors.textTertiary,
   },
   reviewRating: {
     flexDirection: 'row',
