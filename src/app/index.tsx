@@ -1,9 +1,2 @@
-import { Redirect } from 'expo-router'
-
-const StartPage = () => {
-    return (
-      <Redirect href='/SearchScreen' />
-    )
-}
-
-export default StartPage;
+import SearchScreen from './SearchScreen';
+export default SearchScreen;

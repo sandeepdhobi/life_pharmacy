@@ -25,7 +25,7 @@ export default function RootLayout() {
     const hideSplash = async () => {
       if (fontsLoaded) {
         // Wait for 2 seconds before hiding splash screen
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        await new Promise(resolve => setTimeout(resolve, 3000));
         await SplashScreen.hideAsync();
       }
     };
@@ -44,7 +44,7 @@ export default function RootLayout() {
       <CartProvider>
         <View style={{ flex: 1 }}>
           <Stack>
-            <Stack.Screen name="SearchScreen/index" options={{ headerShown: false }} />
+            <Stack.Screen name="index" options={{ headerShown: false }} />
             <Stack.Screen name="product/[slug]" options={{ title: 'Product Details', headerRight: () => <CartButton /> }} />
             <Stack.Screen name="Cart/index" options={{ presentation: formSheet, title: 'Shopping Cart' }} />
           </Stack>
