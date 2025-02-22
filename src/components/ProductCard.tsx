@@ -11,7 +11,7 @@ interface ProductCardProps {
   product: Product;
 }
 
-export const ProductCard = ({ product }: ProductCardProps) => {
+export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   if (!product) return null;
 
   const imageUrl = product.images.featured_image;
@@ -20,7 +20,10 @@ export const ProductCard = ({ product }: ProductCardProps) => {
 
   return (
     <Link href={`/product/${product.slug}`} asChild>
-      <TouchableOpacity style={styles.card}>
+      <TouchableOpacity 
+        style={styles.card}
+        accessibilityRole="button"
+      >
         <View style={styles.imageContainer}>
           <Image
             source={{ uri: imageUrl }}

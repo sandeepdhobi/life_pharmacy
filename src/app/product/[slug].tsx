@@ -67,7 +67,7 @@ export default function ProductDetailsScreen() {
   if (isLoading) {
     return (
       <View style={styles.centered}>
-        <ActivityIndicator size="large" color={theme.colors.primary} />
+        <ActivityIndicator testID="loading-indicator" size="large" color={theme.colors.primary} />
       </View>
     );
   }
