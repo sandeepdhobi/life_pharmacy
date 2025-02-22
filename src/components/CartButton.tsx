@@ -13,7 +13,7 @@ export const CartButton = () => {
   return (
     <TouchableOpacity 
       style={styles.container}
-      onPress={() => router.push('/cart')}
+      onPress={() => router.push('/Cart')}
     >
       <FontAwesome name="shopping-cart" size={24} color={theme.colors.primary} />
       {itemCount > 0 && (

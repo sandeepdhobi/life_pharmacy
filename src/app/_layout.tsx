@@ -46,7 +46,7 @@ export default function RootLayout() {
           <Stack>
             <Stack.Screen name="SearchScreen/index" options={{ headerShown: false }} />
             <Stack.Screen name="product/[slug]" options={{ title: 'Product Details', headerRight: () => <CartButton /> }} />
-            <Stack.Screen name="cart" options={{ presentation: formSheet, title: 'Shopping Cart' }} />
+            <Stack.Screen name="Cart/index" options={{ presentation: formSheet, title: 'Shopping Cart' }} />
           </Stack>
         </View>
       </CartProvider>
