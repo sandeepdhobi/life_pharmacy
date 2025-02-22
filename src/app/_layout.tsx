@@ -1,5 +1,3 @@
-// Move all content from src/app/_layout.tsx here
-// Keep the same code, just rename the component to AppNavigation
 import { useEffect } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Stack } from 'expo-router';
@@ -7,7 +5,7 @@ import { CartProvider } from '../context/CartContext';
 import { CartButton } from '../components/CartButton';
 import * as Font from 'expo-font';
 import { useCallback } from 'react';
-import { View } from 'react-native';
+import { Platform, View } from 'react-native';
 import * as SplashScreen from 'expo-splash-screen';
 
 const queryClient = new QueryClient();
@@ -15,7 +13,7 @@ const queryClient = new QueryClient();
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
 
-export default function Layout() {
+export default function RootLayout() {
   const [fontsLoaded] = Font.useFonts({
     'Onest-Light': require('../../assets/fonts/Onest-Light.ttf'),
     'Onest-Regular': require('../../assets/fonts/Onest-Regular.ttf'),
@@ -34,19 +32,17 @@ export default function Layout() {
     return null;
   }
 
+  const formSheet = Platform.OS === 'ios' ? 'formSheet' : 'modal';
+
   return (
     <QueryClientProvider client={queryClient}>
       <CartProvider>
         <View style={{ flex: 1 }} onLayout={onLayoutRootView}>
           <Stack>
             <Stack.Screen
-              name="index"
+              name="SearchScreen/index"
               options={{
-                title: 'Products',
-                headerRight: () => <CartButton />,
-                headerTitleStyle: {
-                  fontFamily: 'Onest-SemiBold',
-                }
+                headerShown: false
               }}
             />
             <Stack.Screen
@@ -62,6 +58,7 @@ export default function Layout() {
             <Stack.Screen
               name="cart"
               options={{
+                presentation: formSheet,
                 title: 'Shopping Cart',
                 headerTitleStyle: {
                   fontFamily: 'Onest-SemiBold',

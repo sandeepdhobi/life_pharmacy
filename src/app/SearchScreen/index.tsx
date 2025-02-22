@@ -1,3 +1,5 @@
+// Move all content from src/app/index.tsx here
+// Keep the same code, just rename the component to SearchScreen
 import React, { useState, useMemo } from 'react';
 import { 
   StyleSheet, 
@@ -5,23 +7,19 @@ import {
   FlatList, 
   ActivityIndicator, 
   Text,
-  TextInput,
-  TouchableOpacity,
   SafeAreaView,
   StatusBar 
 } from 'react-native';
 import { useInfiniteQuery } from '@tanstack/react-query';
-import { ProductCard } from '../components/ProductCard';
-import { getProducts } from '../api/client';
-import { Product } from '../types/product';
-import { createProductSearch } from '../utils/search';
-import { theme, spacing, borderRadii } from '../constants/theme';
-import { FontAwesome } from '@expo/vector-icons';
-import { useRouter } from 'expo-router';
+import { ProductCard } from '../../components/ProductCard';
+import { getProducts } from '../../api/client';
+import { Product } from '../../types/product';
+import { createProductSearch } from '../../utils/search';
+import { theme, spacing } from '../../constants/theme';
+import { SearchBar } from '../../components/SearchBar';
 
 export default function SearchScreen() {
   const [searchQuery, setSearchQuery] = useState('');
-  const router = useRouter();
 
   const {
     data,
@@ -48,7 +46,7 @@ export default function SearchScreen() {
   );
 
   const filteredProducts = useMemo(() => {
-    if (!searchQuery.trim()) return [];
+    if (!searchQuery.trim()) return allProducts;
     
     const search = createProductSearch(allProducts);
     return search(searchQuery).map(result => result.item);
@@ -58,41 +56,10 @@ export default function SearchScreen() {
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="dark-content" />
       
-      {/* Search Header */}
-      <View style={styles.header}>
-        <TouchableOpacity 
-          style={styles.backButton}
-          onPress={() => router.back()}
-        >
-          <FontAwesome name="arrow-left" size={20} color={theme.colors.textPrimary} />
-        </TouchableOpacity>
-        
-        <View style={styles.searchContainer}>
-          <TextInput
-            style={styles.searchInput}
-            value={searchQuery}
-            onChangeText={setSearchQuery}
-            placeholder="Search products..."
-            placeholderTextColor={theme.colors.textTertiary}
-            autoFocus
-          />
-          {searchQuery ? (
-            <TouchableOpacity 
-              style={styles.clearButton}
-              onPress={() => setSearchQuery('')}
-            >
-              <FontAwesome name="times-circle" size={16} color={theme.colors.textTertiary} />
-            </TouchableOpacity>
-          ) : (
-            <FontAwesome 
-              name="search" 
-              size={16} 
-              color={theme.colors.textTertiary}
-              style={styles.searchIcon}
-            />
-          )}
-        </View>
-      </View>
+      <SearchBar 
+        value={searchQuery}
+        onChangeText={setSearchQuery}
+      />
 
       {status === 'pending' ? (
         <View style={styles.centered}>
@@ -107,7 +74,7 @@ export default function SearchScreen() {
       ) : filteredProducts.length === 0 ? (
         <View style={styles.centered}>
           <Text style={styles.emptyText}>
-            {searchQuery.trim() ? 'No products found' : 'Start typing to search products'}
+            {searchQuery ? 'No products found' : 'No products available'}
           </Text>
         </View>
       ) : (
@@ -115,7 +82,8 @@ export default function SearchScreen() {
           data={filteredProducts}
           renderItem={({ item }) => <ProductCard product={item} />}
           keyExtractor={(item: Product) => item.id.toString()}
-          numColumns={1}
+          numColumns={2}
+          columnWrapperStyle={styles.row}
           contentContainerStyle={styles.list}
           onEndReached={() => {
             if (hasNextPage && !isFetchingNextPage && !searchQuery) {
@@ -137,43 +105,7 @@ export default function SearchScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: theme.colors.background,
-  },
-  header: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    paddingHorizontal: spacing.md,
-    paddingVertical: spacing.sm,
-    borderBottomWidth: 1,
-    borderBottomColor: theme.colors.border,
-    backgroundColor: theme.colors.background,
-  },
-  backButton: {
-    padding: spacing.xs,
-    marginRight: spacing.sm,
-  },
-  searchContainer: {
-    flex: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
     backgroundColor: theme.colors.surface,
-    borderRadius: borderRadii.round,
-    paddingHorizontal: spacing.md,
-    height: 40,
-  },
-  searchInput: {
-    flex: 1,
-    fontSize: theme.typography.sizes.md,
-    fontFamily: theme.typography.fonts.regular,
-    color: theme.colors.textPrimary,
-    height: '100%',
-    padding: 0,
-  },
-  searchIcon: {
-    marginLeft: spacing.sm,
-  },
-  clearButton: {
-    padding: spacing.xs,
   },
   centered: {
     flex: 1,
@@ -182,6 +114,9 @@ const styles = StyleSheet.create({
   },
   list: {
     padding: spacing.md,
+  },
+  row: {
+    justifyContent: 'space-between',
   },
   loader: {
     marginVertical: spacing.md,
